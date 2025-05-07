@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Styled Form</title>
+  <title>Reg Form</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -13,13 +13,13 @@
   <form>
     <fieldset>
       <legend>User Info</legend>
-      <p class="required-note">Fields with red border are required</p>
+      <p class="required-note">Fields with red border</p>
 
       <label for="username">Username</label>
       <input type="text" id="username" name="username" placeholder="Enter Username" required minlength="4" maxlength="12">
 
       <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="example@mail.com" multiple>
+      <input type="email" id="email" name="email" placeholder="usersemail@mail.com" multiple>
 
       <label for="password">Password</label>
       <input type="password" id="password" name="password" minlength="6" maxlength="20" placeholder="Enter Password" required>
@@ -47,11 +47,11 @@
         <label for="female" class="inline-label">Female</label>
       </div>
 
-      <label>Interests</label>
+      <label>Hobbies</label>
       <div>
-        <input type="checkbox" id="sports" name="interest" value="sports">
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
         <label for="sports" class="inline-label">Sports</label>
-        <input type="checkbox" id="music" name="interest" value="music">
+        <input type="checkbox" id="music" name="hobbies" value="music">
         <label for="music" class="inline-label">Music</label>
       </div>
 
